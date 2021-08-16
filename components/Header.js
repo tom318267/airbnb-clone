@@ -76,7 +76,7 @@ const Header = ({ placeholder }) => {
       {/* Right */}
       <div className="flex items-center space-x-4 justify-end text-gray-500">
         <p className="hidden md:inline-flex cursor-pointer">Become a host</p>
-        <GlobeAltIcon className="h-6 cursor-pointer" />
+        <GlobeAltIcon className="hidden sm:inline-flex h-6 cursor-pointer" />
 
         <div className="flex border-2 rounded-full items-center space-x-2 p-2">
           <MenuIcon className="h-6" />
