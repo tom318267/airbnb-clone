@@ -65,7 +65,7 @@ const Header = ({ placeholder }) => {
       <div className="flex items-center md:border-2 py-2 rounded-full md:shadow-sm">
         <input
           onChange={(e) => setSearchInput(e.target.value)}
-          className="outline-none pl-5 bg-transparent flex-grow text-sm text-gray-600 placeholder-gray-400"
+          className="truncate outline-none pl-5 bg-transparent flex-grow text-sm text-gray-600 placeholder-gray-400"
           type="text"
           placeholder={placeholder || "Start your search"}
           value={searchInput}
